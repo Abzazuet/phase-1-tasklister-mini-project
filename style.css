@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(#219ebc, #219ebc);
 }
 
 button {
@@ -34,4 +34,22 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+button {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-left: 15px;
+  font-size: 15px;
+  background-color: #023047;
+}
+button:hover {
+  background-color: #fb8500;
+  cursor: pointer;
+}
+select {
+  background-color: #ade8f4;
+  border: 1px solid #333;
+  border-radius: 5px;
 }
